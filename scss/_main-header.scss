@@ -1,0 +1,26 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+
+    &__left {
+        display: block;
+        margin: 30px 0 0 67px;
+        padding-bottom: 92px;
+    }
+
+&__title {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 81px;
+    letter-spacing: 0%;
+}
+
+&__date {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0%;
+}
+
+}

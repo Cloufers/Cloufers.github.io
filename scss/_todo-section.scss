@@ -1,0 +1,132 @@
+.todo-section {
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 20px;
+    width:721px;
+    height:387px;
+    background-color: white;
+    border-radius: 34px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding-top: 42px;
+  }
+  
+  .todo-section-title {
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 42px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 45px;
+  }
+  
+  .todo-section-title::after {
+  content: "⋮";
+  font-size: 24px;
+  color: #888;
+  padding-right: 45.5px;
+  }
+  
+  
+  .todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 35px;
+  }
+  
+  .todo-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 15px;
+  border-radius: 14px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  }
+  
+  .todo-item__name {
+  font-weight: 600;
+  font-size: 16px;
+  flex-grow: 1;
+  margin-left: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  
+  .todo-item__icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 36px;
+  background-color: #FABB181A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .todo-item-icon__img {
+  width: 18px;
+  height: 18px;
+  }
+  
+  .todo-item__time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF8E8;
+  border-radius: 10px;
+  width: 95px;
+  height: 41px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  margin-right: 15px;
+  }
+  
+  .todo-item__progress {
+  flex-grow: 1;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  position: relative;
+  }
+  
+  .todo-item__progress::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-color: #FABB18;
+  border-radius: 3px;
+  }
+  
+  .todo-item:nth-child(1) .todo-item__progress::before {
+  width: 100%;
+  }
+  
+  .todo-item:nth-child(2) .todo-item__progress::before {
+  width: 25%;
+  }
+  
+  .todo-item:nth-child(3) .todo-item__progress::before {
+  width: 50%;
+  }
+  
+  .todo-item:nth-child(4) .todo-item__progress::before {
+  width: 75%;
+  }
+  
+  .view-reports-button {
+  margin-left: 570px;
+  margin-top: 23px;
+  width: 116px;
+  height:46px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  }
+  
+  

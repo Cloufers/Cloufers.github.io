@@ -1,0 +1,108 @@
+.members-section {
+    font-family: 'Poppins', sans-serif;
+    min-width: 664px;
+    min-height: 387px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 34px;
+    box-shadow: 0px 16px 31px 0px rgba(0, 0, 0, 0.01);
+    margin-left: 50px;
+  }
+  
+  .members-section-title {
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .members-section-title::after {
+    content: "⋮";
+    font-size: 24px;
+    color: #888;
+    padding-right: 30px;
+  }
+  
+  .members-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .members-header {
+    display: flex;
+    padding: 0 15px 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+  }
+  
+  .header-item {
+    font-weight: 500;
+    color: #888;
+  }
+  
+  .header-item.member-info {
+    flex: 1;
+  }
+  
+  .header-item.today,
+  .header-item.week {
+    width: 100px;
+    text-align: center;
+  }
+  
+  .members-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .member-item {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 14px;
+    padding: 15px;
+  }
+  
+  .member-info {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .member-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .member-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .member-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .member-role, .member-task {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .member-time {
+    background-color: #FFF8E8;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 70px;
+    text-align: center;
+  }
+  
+  .member-time.today {
+    margin-left: auto;
+    margin-right: 15px;
+  }

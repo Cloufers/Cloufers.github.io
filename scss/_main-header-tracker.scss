@@ -1,0 +1,48 @@
+.main-header__tracker {
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+    background-color: white;
+    width: 516px;
+    height: 167px;
+    border-radius: 34px;
+    margin-right: 32px;
+    margin-top: 72px;
+
+    &-title { 
+        color: rgb(0, 0, 0);
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: 0%; 
+    }
+
+    &-button {
+        width: 90px;
+        height: 90px;
+        margin-left: 68px;
+        border-radius: 24px;
+        background-color: #FABB18;
+        border: none;
+        position: relative;
+        cursor: pointer;
+        
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 25px solid black;
+      }
+
+
+
+     }
+
+
+}
